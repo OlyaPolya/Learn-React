@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.abb62443.css",
+    "main.js": "/static/js/main.3d4451dd.js",
+    "static/js/787.3c167a06.chunk.js": "/static/js/787.3c167a06.chunk.js",
+    "static/media/nature-sprout-dirt-young-seedling.jpg": "/static/media/nature-sprout-dirt-young-seedling.0c7cf3e4096ff098b009.jpg",
+    "static/media/404.jpg": "/static/media/404.f1151b5f446f72ee6ed7.jpg",
+    "static/media/2827397.jpg": "/static/media/2827397.47a781e5515cb20d1dc9.jpg",
+    "index.html": "/index.html",
+    "static/media/Vector.svg": "/static/media/Vector.e7ec03580e1496053d1d.svg",
+    "main.abb62443.css.map": "/static/css/main.abb62443.css.map",
+    "main.3d4451dd.js.map": "/static/js/main.3d4451dd.js.map",
+    "787.3c167a06.chunk.js.map": "/static/js/787.3c167a06.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abb62443.css",
+    "static/js/main.3d4451dd.js"
+  ]
+}
