@@ -1,0 +1,54 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.header-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 0;
+  font-family: 'Satisfy', cursive;
+  font-size: 2rem;
+  font-weight: bolder;
+  background-size: cover ;
+  background-position: top;
+  animation: changecolor 20s alternate linear infinite;
+}
+
+.header-links {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+  gap: 2rem;
+  font-size: 1.5rem;
+}
+
+.link {
+  transition: 0.5s;
+}
+
+/* TODO: check if component css variables overwrite App vars 
+*/
+@keyframes changecolor {
+  0% {
+    background-color: #f0e4f7;
+  }
+  20% {
+    background-color: #CDB4DB;
+  }
+  40% {
+    background-color: #FFC8DD;
+  }
+  60% {
+    background-color: #FFAFCC;
+  }
+  80% {
+    background-color: #BDE0FE;
+  }
+  100% {
+    background-color: #A2D2FF;
+  }
+}

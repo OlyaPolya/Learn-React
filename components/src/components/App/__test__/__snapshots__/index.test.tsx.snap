@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> should match snapshot 1`] = `
+<div>
+  <div
+    class="App"
+  >
+    <header
+      class="header"
+    >
+      <p
+        class="header-title"
+      >
+        Learning React Project
+      </p>
+      <ul
+        class="header-links"
+      >
+        <li
+          class="link"
+        >
+          <a
+            href="/"
+          >
+            Search
+          </a>
+        </li>
+        <li
+          class="link"
+        >
+          <a
+            href="/about"
+          >
+            About Us
+          </a>
+        </li>
+        <li
+          class="link"
+        >
+          <a
+            href="/reviews"
+          >
+            Reviews Form
+          </a>
+        </li>
+      </ul>
+    </header>
+    <div
+      class="search-block"
+    >
+      <div
+        class="search-list"
+      >
+        <div
+          class="search"
+        >
+          <input
+            aria-label="search-input"
+            class="search-input"
+            placeholder="Nature..."
+            type="text"
+          />
+          <button
+            class="search-button"
+            type="button"
+          >
+            Search
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

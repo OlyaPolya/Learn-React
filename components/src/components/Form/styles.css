@@ -1,0 +1,151 @@
+.reviews {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.reviews-header {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  gap: 2rem;
+}
+
+.form-user,
+.form-rate,
+.form-review,
+.form-image {
+  display: flex;
+  gap: 40px;
+  width: 100%;
+}
+
+.form-user,
+.form-rate,
+.form-review {
+  height: 2rem;
+}
+
+.form-image {
+  height: 5rem;
+}
+
+.form-user_title,
+.form-rate_title,
+.form-review_title,
+.form-image_title {
+  display: flex;
+  align-items: flex-start;
+  width: 20%;
+}
+
+.form-user_description,
+.form-review_description {
+  flex-grow: 2;
+}
+
+.form-user_description,
+.form-review_description,
+.form-button,
+.form-rate_select {
+  border: 1px solid rgb(192, 191, 191);
+  border-radius: 0.5rem;
+}
+
+.form-review {
+  height: 5rem;
+}
+
+.form-button {
+  height: 2rem;
+  background-color: rgb(116, 198, 157);
+  color: black;
+}
+
+.error {
+  border: 1px solid red;
+}
+
+.form-error-hight {
+  display: none;
+}
+
+.form-error-show {
+  display: block;
+  color: red;
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+.form-image_preview {
+  width: 5rem;
+  height: 5rem;
+}
+
+.review-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2rem;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.review-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 0.8rem;
+  width: 15rem;
+  background-color:white;
+  border: 1px solid rgb(226, 220, 220);
+  border-radius: 0.5rem;
+  padding: 0.8rem;
+}
+
+.review-title{
+  text-align: center;
+  font-size: 1.2rem;
+  word-wrap: break-word;
+}
+
+.review-description {
+  word-wrap: break-word;
+}
+
+
+.review-rate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.8rem;
+  height: 1.8rem;
+  font-size: 1.1rem;
+  border: 1px solid #ffb300;
+  background-color: #ffb300;
+  border-radius: 0.5rem;
+}
+
+.review-image{
+  margin: 0 auto;
+  width: 12rem;
+  height: 12rem;
+}
+
+img {
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+.review-description__title {
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: bold;
+}

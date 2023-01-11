@@ -1,0 +1,24 @@
+.about {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 70%;
+  gap: 2rem;
+  background-color: white;
+}
+
+.about-title {
+  padding-top: 0.7rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.about-description {
+  font-size: 1.2rem;
+  height: 75vh;
+  padding-left: 1rem;
+  background-image: url('../images/nature-sprout-dirt-young-seedling.jpg');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
